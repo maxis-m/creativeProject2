@@ -1,0 +1,39 @@
+table{
+  border-style: solid;
+  border-width: medium;
+}
+*{
+  margin: auto;
+  text-align: center;
+  background-color: #3279a8;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-item {
+  border: 1px solid #fff;
+  background-color: #D6E9FE;
+  height: 200px;
+  flex: 1;
+}
+.footer-one,
+.footer-three {
+  background-color: #5995DA;
+  flex: initial;
+  width: 300px;
+}
+.footer-Words{
+  text-align: center;
+
+}
+.moviePoster, .wText{
+  display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
